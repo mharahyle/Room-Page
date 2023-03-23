@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.display-image{
+    display: none;
+}
+
+
+.imageOne{
+    display: flex;
+}
+
+.imagee{
+    width: 750px;
+}
+
+.navbar{
+    display: grid;
+    position: absolute;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 30px;
+}
+.navbar-img{
+    position: relative;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 100px;
+    list-style: none;
+
+}
+.shop:hover{
+    cursor: pointer;
+}
+
+.navbar li{
+    padding-top: 10px;
+    list-style: none;
+}
+
+.room{
+    font-weight: bolder;
+    color: #fff;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+.navbar li:hover{
+    text-decoration: underline;
+}
+.discover h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.discover-lorem{
+    text-align-last: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+
+}
+.discover{
+    padding-top: 80px;
+}
+
+.shop{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.fa-less-than{
+width: 50px;
+height: 50px;
+padding-top: 20px;
+color: #fff;
+background-color: rgb(32, 31, 31);
+}
+.fa-greater-than{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    color: #fff;
+    background-color: rgb(32, 31, 31);
+
+
+
+}
+.btn-sign{
+    padding-top: 102px;
+    border: none;
+   
+}
+.btn-sign button{
+    border: none;
+}
+.fa-greater-than:hover{
+    background-color: rgb(108, 103, 103);
+}
+.fa-less-than:hover{
+    background-color: rgb(108, 103, 103);
+}
+
+.footer{
+    display: flex;
+}
+.footer-lorem{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px;
+}
+.footer-lorem p{
+    text-align-last: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: small;
+    padding-top: 10px;
+}
